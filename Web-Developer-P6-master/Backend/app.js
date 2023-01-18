@@ -21,17 +21,7 @@ const userRoutes = require("./routes/user");
 const saucesRoutes = require("./routes/sauces");
 
 
-const rateLimit = require("express-rate-limit");
 
-app.use(
-  rateLimit({
-      windowMs: 15 * 60 * 1000,
-      max: 20,
-      message:
-          "Vous avez effectué plus de 20 loggin, veuillez attendre 15 minutes!",
-      headers: true,
-  })
-);
 
 mongoose.connect(DBToken ,
   { useNewUrlParser: true,
