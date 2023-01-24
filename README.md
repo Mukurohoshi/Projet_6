@@ -13,7 +13,7 @@ créer un fichier .env en précisant une valeur pour chaque variable comme suit 
 
 USERNAMEDB = '<Nom d'utilisateur mongoDB>'
 PASSWORD = '<Mot de passe mongoDB>'
-HOST = '<CLuster de mongodDB>'
+HOST ='<CLuster de mongodDB>'
 DATABASE = '<Nom base de donnée mongoDB>'
 
 Lancer le serveur backend avec 
